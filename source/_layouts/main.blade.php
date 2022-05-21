@@ -22,7 +22,10 @@
             <x-navigation />
         </div>
     </header>
-    @yield('body')
+
+    <main class="py-14 px-5 flex-1">
+        @yield('body')
+    </main>
 </body>
 
 </html>
