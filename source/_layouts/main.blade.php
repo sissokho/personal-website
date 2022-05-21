@@ -28,11 +28,15 @@
     </main>
 
     <footer class="p-5 bg-slate-900 text-slate-200">
-        <p class="text-center">&copy; <span></span> Mouhamadou Moustapha SISSOKHO</p>
-        <p class="text-center text-sm mt-2">Built with <a href="https://jigsaw.tighten.com/" target="_blank"
-                class="text-pink-400">Jigsaw</a>, <a href="https://tailwindcss.com/" target="_blank"
-                class="text-pink-400">Tailwind</a> CSS & <a href="https://alpinejs.dev/" target="_blank"
-                class="text-pink-400">Alpine.js</a></p>
+        <p class="text-center" x-data>
+            &copy; <span x-text="new Date().getFullYear()"></span> Mouhamadou Moustapha Sissokho
+        </p>
+        <p class="text-center text-sm mt-2">
+            Built with
+            <a href="https://jigsaw.tighten.com/" target="_blank" class="text-pink-400">Jigsaw</a>,
+            <a href="https://tailwindcss.com/" target="_blank" class="text-pink-400">Tailwind</a> CSS
+            & <a href="https://alpinejs.dev/" target="_blank" class="text-pink-400">Alpine.js</a>
+        </p>
     </footer>
 </body>
 
