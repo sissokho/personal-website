@@ -23,14 +23,12 @@
     <ul class="absolute inset-0 h-screen z-10 flex flex-col justify-center items-center gap-10 bg-pink-600 sm:static sm:flex-row sm:h-auto sm:gap-5 sm:bg-white"
         x-cloak x-show="open || window.getComputedStyle($refs.btn, null).display === 'none'" x-transition
         x-trap.inert.noscroll="open">
-        <li><a class="font-bold text-3xl text-white sm:text-black sm:font-normal sm:text-base sm:hover:text-pink-700 sm:transition-colors"
-                href="#">Home</a></li>
-        <li><a class="font-bold text-3xl text-white sm:text-black sm:font-normal sm:text-base sm:hover:text-pink-700 sm:transition-colors"
-                href="#">Work</a></li>
-        <li><a class="font-bold text-3xl text-white sm:text-black sm:font-normal sm:text-base sm:hover:text-pink-700 sm:transition-colors"
-                href="#">Blog</a></li>
+        <x-navigation-item>Home</x-navigation-item>
+        <x-navigation-item>Work</x-navigation-item>
+        <x-navigation-item>Blog</x-navigation-item>
     </ul>
 
+    <!-- Github link -->
     <a href="https://github.com/sissokho" target="_blank" class="text-slate-500 transition-colors hover:text-black">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 24 24"
             style=" fill: currentColor;">
