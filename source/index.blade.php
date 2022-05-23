@@ -3,13 +3,14 @@
 @section('body')
     <div class="max-w-7xl mx-auto flex flex-col gap-10 md:flex-row md:gap-14">
         <div
-            class="w-80 h-96 shrink-0 rounded-lg relative mx-auto before:-z-10 before:block before:absolute before:inset-0 before:rotate-[-7deg] before:bg-pink-300 before:rounded-lg before:shadow-xl before:shadow-slate-300 md:ml-5">
-            <img src="/assets/images/me.jpg" class="block w-full h-full rounded-lg border border-slate-300"
+            class="w-80 h-96 shrink-0 rounded-lg relative mx-auto before:-z-10 before:block before:absolute before:inset-0 before:translate-x-6 before:translate-y-6 before:bg-pink-300 before:rounded-lg before:border-2 before:border-slate-700 md:ml-5">
+            <img src="/assets/images/me.jpg"
+                class="block w-full h-full rounded-lg shadow-xl shadow-slate-900/50 border-2 border-slate-700"
                 alt="My profile photo">
         </div>
 
         <div>
-            <h1 class="text-pink-500 font-play text-xl tracking-wide text-center md:text-left">
+            <h1 class="text-pink-600 font-play text-xl tracking-wide text-center md:text-left">
                 Mouhamadou Moustapha Sissokho
             </h1>
             <h2 class="text-2xl text-center md:text-left">Web Developer</h2>
