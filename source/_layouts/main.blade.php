@@ -19,7 +19,7 @@
 <body class="min-h-screen flex flex-col bg-white font-monserrat antialiased tracking-wide relative">
     <header class="p-5 border-b border-slate-200">
         <div class="flex items-center max-w-7xl mx-auto">
-            <x-navigation />
+            <x-navigation :page="$page" />
         </div>
     </header>
 
