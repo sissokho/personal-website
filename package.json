@@ -7,6 +7,7 @@
         "prod": "mix --production"
     },
     "devDependencies": {
+        "@tailwindcss/typography": "^0.5.2",
         "autoprefixer": "^10.4.7",
         "laravel-mix": "^6.0.39",
         "laravel-mix-jigsaw": "^1.5.0",

@@ -6,6 +6,9 @@ return [
     'title' => 'Jigsaw',
     'description' => 'Website description.',
     'collections' => [
-        'projects'
+        'projects' => [
+            'path' => 'work/{slug}'
+        ]
     ],
+
 ];
