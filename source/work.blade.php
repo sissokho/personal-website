@@ -2,8 +2,14 @@
 
 @section('body')
     <div class="max-w-7xl mx-auto">
-        <h1 class="text-pink-700 font-play text-3xl tracking-wide text-center md:text-left">Selected Work</h1>
-        <p class="text-lg text-center md:text-left">Here are few projects I have worked on.</p>
+        <h1 class="text-3xl text-center font-bold tracking-wide md:text-left">
+            <span class="inline-block bg-pink-600 text-white px-2 py-1"
+                style="border-radius: 91% 9% 90% 10% / 29% 82% 18% 71%">
+                Selected Work
+            </span>
+        </h1>
+        <p class="text-lg text-slate-700 font-bold text-center md:text-left">Here are few projects I have worked on.</p>
+
         <ul class="mt-16 space-y-20">
             @foreach ($projects as $project)
                 <li>
@@ -20,18 +26,17 @@
                             <div class="flex-1">
                                 <h2 class="text-center md:text-left">
                                     <a href="/work/{{ $project->slug }}"
-                                        class="text-2xl font-bold font-play tracking-wider transition-colors hover:text-slate-800">{{ $project->title }}
+                                        class="text-3xl text-slate-800 font-bold hover:text-cyan-900">{{ $project->title }}
                                     </a>
                                 </h2>
-                                <p class="text-center text-slate-600 mt-5 md:text-left">
+                                <p class="text-center text-lg text-slate-600 mt-5 md:text-left">
                                     {{ $project->description }}
                                 </p>
 
                                 <!-- Technologies used -->
                                 <div class="flex gap-2 justify-center flex-wrap mt-3 md:justify-start">
                                     @foreach ($project->technologies as $technology)
-                                        <span
-                                            class="text-sm text-pink-700/75 tracking-wider border border-pink-700/75 px-2 rounded-full">
+                                        <span class="bg-pink-200/50 font-bold text-pink-900 tracking-wider px-2 rounded-sm">
                                             {{ $technology }}
                                         </span>
                                     @endforeach
@@ -42,12 +47,12 @@
                             <div class="text-center space-x-5 md:text-left">
                                 @if ($project->live_url)
                                     <a href="{{ $project->live_url }}" target="_blank"
-                                        class="text-pink-700 underline decoration-2 underline-offset-4 transition-all hover:text-pink-800 hover:decoration-4">
+                                        class="text-lg text-slate-900 underline decoration-slate-700 decoration-2 underline-offset-4 hover:text-cyan-900 hover:decoration-cyan-800">
                                         See Live
                                     </a>
                                 @endif
                                 <a href="/work/{{ $project->slug }}"
-                                    class="text-pink-700 underline decoration-2 underline-offset-4 transition-all hover:text-pink-800 hover:decoration-4">
+                                    class="text-lg text-slate-900 underline decoration-slate-700 decoration-2 underline-offset-4 hover:text-cyan-900 hover:decoration-cyan-800">
                                     Read more
                                 </a>
                             </div>

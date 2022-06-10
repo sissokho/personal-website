@@ -1,6 +1,6 @@
 <li>
     <a {{ $attributes->class([
-        'font-bold text-3xl text-white sm:text-black sm:font-normal sm:text-base sm:hover:text-pink-700 sm:transition-colors'
+        'font-bold text-3xl text-white sm:text-slate-500 sm:text-base sm:hover:text-cyan-900'
     ]) }}">
         {{ $slot }}
     </a>
