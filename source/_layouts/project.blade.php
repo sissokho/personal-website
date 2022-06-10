@@ -7,11 +7,11 @@
 
         <!-- Technologies used -->
         <div class="flex gap-2 justify-center flex-wrap mt-5 md:justify-start">
-            <span class="text-sm text-pink-700/75 tracking-wider border border-pink-700/75 px-2 rounded-full">Laravel</span>
-            <span class="text-sm text-pink-700/75 tracking-wider border border-pink-700/75 px-2 rounded-full">Livewire</span>
-            <span
-                class="text-sm text-pink-700/75 tracking-wider border border-pink-700/75 px-2 rounded-full">Alpine.js</span>
-            <span class="text-sm text-pink-700/75 tracking-wider border border-pink-700/75 px-2 rounded-full">CSS/SASS</span>
+            @foreach ($page->technologies as $technology)
+                <span class="bg-pink-200/50 font-bold text-pink-900 tracking-wider px-2 rounded-sm">
+                    {{ $technology }}
+                </span>
+            @endforeach
         </div>
 
         <!-- Content -->
