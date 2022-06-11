@@ -4,29 +4,42 @@
     Moustapha <span class="text-cyan-700">Sissokho</span>
 </a>
 
-<nav class="ml-auto flex gap-10" x-data="{ open: false }">
-    <button class="absolute top-5 right-20 sm:hidden" x-ref="btn" x-on:click="open = true">
-        <!-- Hamburger icon -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
+<!-- Desktop navigation -->
+<nav class="hidden ml-auto sm:flex gap-10">
+    <ul class="flex gap-5">
+        <li>
+            <x-desktop-nav-link href="/">Home</x-desktop-nav-link>
+        </li>
+        <li>
+            <x-desktop-nav-link href="/work">Work</x-desktop-nav-link>
+        </li>
+        <li>
+            <x-desktop-nav-link href="/contact">Contact</x-desktop-nav-link>
+        </li>
+    </ul>
+</nav>
+
+<!-- Mobile navigation -->
+<nav class="ml-auto flex gap-10 sm:hidden" x-data="{ open: false }">
+    <button class="absolute top-3 right-5" x-ref="btn" x-on:click="open = true">
+        <x-icons.hamburger />
     </button>
 
-    <button class="absolute top-5 right-5 text-white z-20" x-cloak x-show="open" x-transition x-on:click="open = false">
-        <!-- Close icon -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-        </svg>
+    <button class="absolute top-5 right-5 z-20" x-cloak x-show="open" x-transition x-on:click="open = false">
+        <x-icons.close />
     </button>
 
     <!-- Navigation links -->
-    <ul class="absolute inset-0 h-screen z-10 flex flex-col justify-center items-center gap-10 bg-pink-600 sm:static sm:flex-row sm:h-auto sm:gap-5 sm:bg-white"
-        x-cloak x-show="open || window.getComputedStyle($refs.btn, null).display === 'none'" x-transition
-        x-trap.inert.noscroll="open">
-        <x-navigation-item href="/">Home</x-navigation-item>
-        <x-navigation-item href="/work">Work</x-navigation-item>
-        <x-navigation-item href="/contact">Contact</x-navigation-item>
+    <ul class="absolute inset-0 h-screen z-10 flex flex-col justify-center items-center gap-10 bg-pink-600" x-cloak
+        x-show="open" x-transition x-trap.inert.noscroll="open">
+        <li>
+            <x-mobile-nav-link href="/">Home</x-mobile-nav-link>
+        </li>
+        <li>
+            <x-mobile-nav-link href="/work">Work</x-mobile-nav-link>
+        </li>
+        <li>
+            <x-mobile-nav-link href="/contact">Contact</x-mobile-nav-link>
+        </li>
     </ul>
 </nav>
