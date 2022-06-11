@@ -8,23 +8,31 @@
 <nav class="hidden ml-auto sm:flex gap-10">
     <ul class="flex gap-5">
         <li>
-            <x-desktop-nav-link href="/">Home</x-desktop-nav-link>
+            <x-desktop-nav-link href="/" :isActive="$page->linkIsActive('')">
+                Home
+            </x-desktop-nav-link>
         </li>
         <li>
-            <x-desktop-nav-link href="/work">Work</x-desktop-nav-link>
+            <x-desktop-nav-link href="/work" :isActive="$page->linkIsActive('work')">
+                Work
+            </x-desktop-nav-link>
         </li>
         <li>
-            <x-desktop-nav-link href="/contact">Contact</x-desktop-nav-link>
+            <x-desktop-nav-link href="/contact" :isActive="$page->linkIsActive('contact')">
+                Contact
+            </x-desktop-nav-link>
         </li>
     </ul>
 </nav>
 
 <!-- Mobile navigation -->
 <nav class="ml-auto flex gap-10 sm:hidden" x-data="{ open: false }">
+    <!-- Menu trigger -->
     <button class="absolute top-3 right-5" x-ref="btn" x-on:click="open = true">
         <x-icons.hamburger />
     </button>
 
+    <!-- Close button -->
     <button class="absolute top-5 right-5 z-20" x-cloak x-show="open" x-transition x-on:click="open = false">
         <x-icons.close />
     </button>
