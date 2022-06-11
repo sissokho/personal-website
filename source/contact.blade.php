@@ -8,7 +8,7 @@
                 Contact
             </span>
         </h1>
-        <p class="text-lg text-slate-700 font-bold text-center md:text-left">Please, feel free to reach out.</p>
+        <p class="text-lg text-slate-700 font-bold text-center mt-2 md:text-left">Please, feel free to reach out.</p>
 
         <ul class="mt-16 space-y-2">
             <ul class="mt-16 space-y-2">

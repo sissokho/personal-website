@@ -8,7 +8,7 @@
                 Selected Work
             </span>
         </h1>
-        <p class="text-lg text-slate-700 font-bold text-center md:text-left">Here are few projects I have worked on.</p>
+        <p class="text-lg text-slate-700 font-bold text-center mt-2 md:text-left">Here are few projects I have worked on.</p>
 
         <ul class="mt-16 space-y-20">
             @foreach ($projects as $project)
