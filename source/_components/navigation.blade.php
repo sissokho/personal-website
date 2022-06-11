@@ -27,6 +27,6 @@
         x-trap.inert.noscroll="open">
         <x-navigation-item href="/">Home</x-navigation-item>
         <x-navigation-item href="/work">Work</x-navigation-item>
-        <x-navigation-item>Blog</x-navigation-item>
+        <x-navigation-item href="/contact">Contact</x-navigation-item>
     </ul>
 </nav>
