@@ -1,5 +1,7 @@
 @extends('_layouts.main')
 
+@section('title', 'Home')
+
 @section('body')
     <div class="max-w-7xl mx-auto flex flex-col gap-10 md:flex-row md:gap-14">
         <div class="w-80 h-80 shrink-0 rounded-lg relative mx-auto md:ml-5">

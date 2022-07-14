@@ -1,5 +1,7 @@
 @extends('_layouts.main')
 
+@section('title', 'My work')
+
 @section('body')
     <div class="max-w-7xl mx-auto">
         <h1 class="text-3xl text-center font-bold tracking-wide md:text-left">
