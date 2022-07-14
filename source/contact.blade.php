@@ -14,25 +14,25 @@
             <ul class="mt-16 space-y-2">
                 <li>
                     <x-contact-link href="mailto:siskomouhamed@gmail.com">
-                        <x-icons.mail />
+                        <x-icons.mail aria-hidden="true" />
                         <span>siskomouhamed@gmail.com</span>
                     </x-contact-link>
                 </li>
                 <li>
                     <x-contact-link href="https://github.com/sissokho">
-                        <x-icons.github />
+                        <x-icons.github aria-hidden="true" />
                         <span>Github</span>
                     </x-contact-link>
                 </li>
                 <li>
                     <x-contact-link href="https://www.linkedin.com/in/mouhamadou-moustapha-sissokho-548a55125/">
-                        <x-icons.linkedin />
+                        <x-icons.linkedin aria-hidden="true" />
                         <span>Linkedin</span>
                     </x-contact-link>
                 </li>
                 <li>
                     <x-contact-link href="https://twitter.com/mm_sissokho">
-                        <x-icons.twitter />
+                        <x-icons.twitter aria-hidden="true" />
                         <span>Twitter</span>
                     </x-contact-link>
                 </li>

@@ -28,13 +28,14 @@
 <!-- Mobile navigation -->
 <nav class="ml-auto flex gap-10 sm:hidden" x-data="{ open: false }">
     <!-- Menu trigger -->
-    <button class="absolute top-3 right-5" x-ref="btn" x-on:click="open = true">
-        <x-icons.hamburger />
+    <button class="absolute top-3 right-5" x-ref="btn" x-on:click="open = true" aria-label="Open mobile navigation">
+        <x-icons.hamburger aria-hidden="true" />
     </button>
 
     <!-- Close button -->
-    <button class="absolute top-5 right-5 z-20" x-cloak x-show="open" x-transition x-on:click="open = false">
-        <x-icons.close />
+    <button class="absolute top-5 right-5 z-20" x-cloak x-show="open" x-transition x-on:click="open = false"
+        aria-label="Close mobile navigation">
+        <x-icons.close aria-hidden="true" />
     </button>
 
     <!-- Navigation links -->
