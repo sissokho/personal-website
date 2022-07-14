@@ -5,8 +5,8 @@ use Illuminate\Support\Str;
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Jigsaw',
-    'description' => 'Website description.',
+    'title' => 'Mouhamadou Moustapha SISSOKHO',
+    'description' => 'My personal website',
     'collections' => [
         'projects' => [
             'path' => 'work/{slug}'
