@@ -5,7 +5,8 @@
 </a>
 
 <!-- Desktop navigation -->
-<nav class="hidden ml-auto sm:flex gap-10">
+<nav class="hidden ml-auto
+        sm:flex gap-10">
     <ul class="flex gap-5">
         <li>
             <x-desktop-nav-link href="/" :isActive="$page->linkIsActive('')">

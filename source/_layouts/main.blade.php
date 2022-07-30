@@ -17,21 +17,52 @@
     </main>
 
     <footer class="p-5 bg-cyan-900 text-slate-200">
-        <p class="text-center" x-data>
-            &copy; <span x-text="new Date().getFullYear()"></span> Mouhamadou Moustapha Sissokho
-        </p>
-        <p class="text-center text-sm mt-2">
-            Built with
-            <a href="https://jigsaw.tighten.com/" target="_blank" class="underline decoration-dotted underline-offset-4">
-                Jigsaw
-            </a>,
-            <a href="https://tailwindcss.com/" target="_blank" class="underline decoration-dotted underline-offset-4">
-                Tailwind CSS
-            </a>
-            & <a href="https://alpinejs.dev/" target="_blank" class="underline decoration-dotted underline-offset-4">
-                Alpine.js
-            </a>
-        </p>
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col gap-3 sm:flex-row sm:justify-between sm:items-center">
+                <p class="text-center" x-data>
+                    Copyright &copy; <span x-text="new Date().getFullYear()"></span> Mouhamadou Moustapha Sissokho
+                </p>
+                <!-- Github profile -->
+                <ul class="flex justify-center gap-5">
+                    <li>
+                        <a href="https://github.com/sissokho" target="_blank" class="group"
+                            aria-label="View my Github profile">
+                            <x-icons.github aria-hidden="true" class="w-8 h-8 text-slate-300 group-hover:text-white" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/mm_sissokho" target="_blank" class="group"
+                            aria-label="Follow me on Twitter">
+                            <x-icons.twitter aria-hidden="true" class="w-8 h-8 text-slate-300 group-hover:text-white" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mouhamadou-moustapha-sissokho-548a55125/" target="_blank"
+                            class="group" aria-label="View my Linkedin profile">
+                            <x-icons.linkedin aria-hidden="true"
+                                class="w-8 h-8 text-slate-300 group-hover:text-white" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mt-2">
+                <p class="text-center text-sm">
+                    Built with
+                    <a href="https://jigsaw.tighten.com/" target="_blank"
+                        class="underline decoration-dotted underline-offset-4">
+                        Jigsaw
+                    </a>,
+                    <a href="https://tailwindcss.com/" target="_blank"
+                        class="underline decoration-dotted underline-offset-4">
+                        Tailwind CSS
+                    </a>
+                    & <a href="https://alpinejs.dev/" target="_blank"
+                        class="underline decoration-dotted underline-offset-4">
+                        Alpine.js
+                    </a>
+                </p>
+            </div>
+        </div>
     </footer>
 </body>
 

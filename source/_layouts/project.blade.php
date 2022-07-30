@@ -11,7 +11,7 @@
     <!-- Technologies used -->
     <div class="flex gap-2 justify-center flex-wrap mt-5 md:justify-start">
         @foreach ($page->technologies as $technology)
-        <span class="bg-pink-200/50 font-bold text-pink-900 tracking-wider px-2 rounded-sm">
+        <span class="bg-cyan-100/80 text-sm font-normal text-cyan-900 tracking-wider py-1 px-4 rounded-full">
             {{ $technology }}
         </span>
         @endforeach
