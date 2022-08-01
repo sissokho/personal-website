@@ -17,13 +17,7 @@
             <x-desktop-nav-link href="/work" :isActive="$page->linkIsActive('work')">
                 Work
             </x-desktop-nav-link>
-        </li>
-        <li>
-            <x-desktop-nav-link href="/contact" :isActive="$page->linkIsActive('contact')">
-                Contact
-            </x-desktop-nav-link>
-        </li>
-    </ul>
+        </li </ul>
 </nav>
 
 <!-- Mobile navigation -->
@@ -34,22 +28,17 @@
     </button>
 
     <!-- Close button -->
-    <button class="absolute top-5 right-5 z-20" x-cloak x-show="open" x-transition x-on:click="open = false"
-        aria-label="Close mobile navigation">
+    <button class="absolute top-5 right-5 z-20" x-cloak x-show="open" x-transition x-on:click="open = false" aria-label="Close mobile navigation">
         <x-icons.close aria-hidden="true" />
     </button>
 
     <!-- Navigation links -->
-    <ul class="absolute inset-0 h-screen z-10 flex flex-col justify-center items-center gap-10 bg-pink-600" x-cloak
-        x-show="open" x-transition x-trap.inert.noscroll="open">
+    <ul class="absolute inset-0 h-screen z-10 flex flex-col justify-center items-center gap-10 bg-pink-600" x-cloak x-show="open" x-transition x-trap.inert.noscroll="open">
         <li>
             <x-mobile-nav-link href="/">Home</x-mobile-nav-link>
         </li>
         <li>
             <x-mobile-nav-link href="/work">Work</x-mobile-nav-link>
-        </li>
-        <li>
-            <x-mobile-nav-link href="/contact">Contact</x-mobile-nav-link>
         </li>
     </ul>
 </nav>
