@@ -4,7 +4,7 @@ title: Personal Website
 slug: personal-website
 description: Website to showcases my skills and my work.
 type: main
-thumbnail:
+thumbnail: personal-website.png
 tags:
     - Jigsaw
     - Tailwind CSS
