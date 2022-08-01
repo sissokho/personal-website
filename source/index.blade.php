@@ -23,9 +23,11 @@
                     Hi, I'm Moustapha. I am a PHP developer and I live in Senegal.
                 </p>
                 <p>
-                    I have been working as a web developer since 2018, first at our university and later in a project called
-                    <x-link href="https://check4decision.univ-thies.sn/">Check4Decision</x-link> directed by one of my
-                    former university teacher.
+                    I have been working as a web developer since 2018, first at our <x-link
+                        href="https://www.univ-thies.sn/"> university</x-link> and later in a project called
+                    <x-link href=" https://check4decision.univ-thies.sn/">Check4Decision</x-link> directed by one of my
+                    former university teacher. I have also worked as Freelance Laravel developer for an agency called
+                    <x-link href="https://nordik-consulting.sn/">Nordik Consulting</x-link>.
                 </p>
                 <p>
                     I love to work with the <x-link href="https://laravel.com/">Laravel framework</x-link> and <x-link
@@ -37,11 +39,6 @@
                 <p>
                     Outside of writing code, I enjoy learning new things, reading blog posts and browsing tech twitter (with
                     an heavy emphasis on the PHP & Laravel community).
-                </p>
-                <p>
-                    If you want to reach out, you can send me an email at <span
-                        class="text-cyan-900">siskomouhamed@gmail.com</span> or contact me on <x-link
-                        href="https://www.linkedin.com/in/mouhamadou-moustapha-sissokho-548a55125/">LinkedIn</x-link>.
                 </p>
             </div>
         </div>
