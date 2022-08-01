@@ -17,7 +17,8 @@
             <x-desktop-nav-link href="/work" :isActive="$page->linkIsActive('work')">
                 Work
             </x-desktop-nav-link>
-        </li </ul>
+        </li>
+    </ul>
 </nav>
 
 <!-- Mobile navigation -->
