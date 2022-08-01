@@ -48,7 +48,6 @@ I wanted to give the website a fresh look for many reasons:
 
 -   I didn't like the design.
 -   I have never been satisfied with the fact of using a template.
--   It was something I was not proud to put in my portfolio.
 -   The first rendering was slow. There were to many heavy images.
 
 So for all this reasons, I decided to do an entire makeover.
@@ -65,7 +64,7 @@ I was quite satisfied with it and i enjoyed the process. I didn't see any reason
 
 ## Performance
 
-A part from the visual design, make it fast was the next big goal. The previous website was taking quite some time to load (around 3-4 seconds).
+A part from the visual design, the website had too many heavy images, not optimized.
 
 My main focus was to optimize the images by:
 
@@ -75,14 +74,21 @@ My main focus was to optimize the images by:
 
 ## Brand new website
 
-So after some hard work and many iterations over the design, [here it is](https://check4decision.univ-thies.sn/):
+So after some hard work and many iterations over the design, [here it is](https://check4decision.netlify.app/):
 
-![](screenshot of the new webiste)
+<img
+src="/assets/images/work/check4decision-website/new-website-1.png"
+alt="Screenshot of the new website"
+width="768"
+height="367"
+loading="lazy"
+decoding="async">
 
-It looks better than the previous one and is faster. It take no more than {seconds} to load.
+It looks better than the previous one and the images rendering is more optimized.
+However it is not totally finished yet. There are little improvements to make after some feedbacks that i have received from the directors.
 
 ## Conclusion
 
 It it always difficult to redesign a website. There is always the pressure to make it look better and load faster.
 
-But as every work, there is still some room for improvement especially in the accessibility part which im not very good at but i'm always making effort to apply it in some degree.
+But as every work, there is still some room for improvement especially in the accessibility part where im not very good at but i'm always making an effort to apply it in some degree.

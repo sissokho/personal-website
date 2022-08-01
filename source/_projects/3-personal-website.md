@@ -52,7 +52,7 @@ As a Laravel enthusiast, as soon as i skimmed through the documentation of Jigsa
 
 On top of that it was built by the team at [Tighten](https://tighten.com/), a featured partner of Laravel.
 
-For all those reason, i decided to use it and i didn't regret it. I was able to understand it up quite fast and start building.
+For all those reason, i decided to use it and i didn't regret it. I was able to understand it quite fast and start building.
 
 ### Tailwind CSS
 

@@ -28,7 +28,13 @@ Building a search engine is not an easy task. A crawler is needed to collect doc
 
 [Our search engine](https://check4decision.univ-thies.sn/search) is made of several components that interact with each other to ensure proper operation during articles indexing and searching. The figure below shows the interaction between the components.
 
-![](image architecture)
+<img
+src="/assets/images/work/check4decision-website/components-interaction.png"
+alt="Different components of the search engine and their interaction"
+width="768"
+height="367"
+loading="lazy"
+decoding="async">
 
 In a simple way, The system works as follows: articles are extracted by a crawler and saved in a database. During the indexing phase, a Java script takes care of retrieving from the database, articles that have not yet been indexed, and adds them to the index using [Lucene](https://lucene.apache.org/). And during the search phase, the query entered by the user on the interface is sent to a Spring Boot API, which uses Lucene to parse the query and find the relevant results in the index, and then return them to the user.
 
