@@ -3,7 +3,9 @@ extends: _layouts.project
 title: Check4Decision Website
 slug: check4decision-website
 description: Website for the Check4Decision project which is a project that addresses issues related to the automation of data collection and aggregation as well as fact-checking in the web journalistic context.
-thumbnail:
+type: main
+status: "Work in progress"
+thumbnail: check4decision-website.png
 live_url: https://check4decision.univ-thies.sn/
 technologies:
     - Jigsaw
