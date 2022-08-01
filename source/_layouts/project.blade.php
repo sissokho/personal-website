@@ -18,7 +18,7 @@
     </div>
 
     <!-- Content -->
-    <article class="markdown mt-16 prose prose-slate md:prose-lg prose-a:text-cyan-700 prose-a:underline prose-a:decoration-cyan-600 prose-a:decoration-2 prose-a:underline-offset-4 hover:prose-a:text-cyan-900 hover:prose-a:decoration-cyan-800 prose-img:max-w-full prose-img:h-auto prose-img:block prose-img:mx-auto prose-img:shadow-lg prose-img:shadow-slate-400 max-w-none">
+    <article class="markdown mt-16 prose prose-slate md:prose-lg prose-a:text-cyan-700 prose-a:underline prose-a:decoration-cyan-600 prose-a:decoration-2 prose-a:underline-offset-4 hover:prose-a:text-cyan-900 hover:prose-a:decoration-cyan-800 prose-img:max-w-full prose-img:h-auto prose-img:block prose-img:mx-auto prose-img:shadow-md prose-img:shadow-slate-400 prose-img:rounded max-w-none">
         {!! (new TightenCo\Jigsaw\Parsers\MarkdownParser())->parse($page->getContent()) !!}
     </article>
 </div>
