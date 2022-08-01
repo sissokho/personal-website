@@ -6,7 +6,7 @@ description: Website for the Check4Decision project which is a project that addr
 type: main
 status: "Work in progress"
 thumbnail: check4decision-website.png
-live_url: https://check4decision.univ-thies.sn/
+live_url: https://check4decision.netlify.app/
 tags:
     - Jigsaw
     - Tailwind CSS
