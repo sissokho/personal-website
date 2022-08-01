@@ -25,10 +25,6 @@
 <meta name="msapplication-config" content="/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 
-
-{{-- Provides information about me --}}
-<link rel="me" href="mailto:siskomouhamed@gmail.com">
-
 <title>@yield('title') - {{ $page->title }}</title>
 
 <link rel="canonical" href="{{ $page->getUrl() }}">
