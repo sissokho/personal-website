@@ -23,10 +23,10 @@
             <!-- Actions -->
             <div class="text-center space-x-5 lg:text-left">
                 @if ($project->live_url)
-                    <x-project.cta href="{{ $project->live_url }}">Live</x-project.cta>
+                    <x-project.cta href="{{ $project->live_url }}" target="_blank">Live</x-project.cta>
                 @endif
                 @if ($project->github_repo)
-                    <x-project.cta href="{{ $project->github_repo }}">Github</x-project.cta>
+                    <x-project.cta href="{{ $project->github_repo }}" target="_blank">Github</x-project.cta>
                 @endif
                 @if ($project->slug)
                     <x-project.cta href="{{ $project->slug }}">Read more</x-project.cta>
