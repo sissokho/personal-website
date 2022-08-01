@@ -6,7 +6,7 @@ description: Search engine that allow users to search through news articles aggr
 type: main
 thumbnail: search-engine.png
 live_url: https://check4decision.univ-thies.sn/search/
-technologies:
+tags:
     - Laravel
     - Livewire
     - CSS/SASS

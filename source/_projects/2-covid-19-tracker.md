@@ -5,7 +5,7 @@ slug: covid-19-tracker
 description: Web Application that tracked the evolution of the Coronavirus pandemic in Senegal during the first wave. It had interactive tools, including maps, epidemic curves and other charts and graphics, which allowed users to track and explore the latest trends.
 type: main
 thumbnail: covid-tracker.png
-technologies:
+tags:
     - Laravel
     - CSS/SASS
     - Javascript

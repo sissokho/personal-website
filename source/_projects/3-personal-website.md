@@ -5,7 +5,7 @@ slug: personal-website
 description: Website to showcases my skills and my work.
 type: main
 thumbnail:
-technologies:
+tags:
     - Jigsaw
     - Tailwind CSS
     - Alpine.js

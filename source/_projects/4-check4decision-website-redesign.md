@@ -7,7 +7,7 @@ type: main
 status: "Work in progress"
 thumbnail: check4decision-website.png
 live_url: https://check4decision.univ-thies.sn/
-technologies:
+tags:
     - Jigsaw
     - Tailwind CSS
     - Alpine.js
