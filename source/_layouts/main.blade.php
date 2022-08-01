@@ -25,20 +25,19 @@
                 <!-- Github profile -->
                 <ul class="flex justify-center gap-5">
                     <li>
-                        <a href="https://github.com/sissokho" target="_blank" class="group"
+                        <a href="{{ $page->github }}" target="_blank" class="group"
                             aria-label="View my Github profile">
                             <x-icons.github aria-hidden="true" class="w-8 h-8 text-slate-300 group-hover:text-white" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/mm_sissokho" target="_blank" class="group"
-                            aria-label="Follow me on Twitter">
+                        <a href="{{ $page->twitter }}" target="_blank" class="group" aria-label="Follow me on Twitter">
                             <x-icons.twitter aria-hidden="true" class="w-8 h-8 text-slate-300 group-hover:text-white" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/mouhamadou-moustapha-sissokho-548a55125/" target="_blank"
-                            class="group" aria-label="View my Linkedin profile">
+                        <a href="{{ $page->linkedin }}" target="_blank" class="group"
+                            aria-label="View my Linkedin profile">
                             <x-icons.linkedin aria-hidden="true"
                                 class="w-8 h-8 text-slate-300 group-hover:text-white" />
                         </a>
