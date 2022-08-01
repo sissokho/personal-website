@@ -10,9 +10,9 @@
 
     <!-- Technologies used -->
     <div class="flex gap-2 justify-center flex-wrap mt-5 md:justify-start">
-        @foreach ($page->technologies as $technology)
+        @foreach ($page->tags as $tag)
         <span class="bg-cyan-100/80 text-sm font-normal text-cyan-900 tracking-wider py-1 px-4 rounded-full">
-            {{ $technology }}
+            {{ $tag }}
         </span>
         @endforeach
     </div>
