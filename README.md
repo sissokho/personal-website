@@ -6,7 +6,7 @@ Check it out at https://sissokho.netlify.app
 
 ## License
 
--   The web application falls under the [MIT License](https://choosealicense.com/licenses/mit/)
+-   The website skeleton falls under the [MIT License](https://choosealicense.com/licenses/mit/)
 -   The content and design are under [exclusive copyright](https://choosealicense.com/no-license/)
 
 Please remember that the design is not meant to be forked!
