@@ -16,20 +16,20 @@
                 <!-- Technologies used / Concepts learned or practiced -->
                 <div class="flex gap-2 justify-center flex-wrap mt-3 lg:justify-start">
                     @foreach ($project->tags as $tag)
-                        <x-project.tag>{{ $tag }}</x-project.tag>
+                    <x-project.tag>{{ $tag }}</x-project.tag>
                     @endforeach
                 </div>
             </div>
             <!-- Actions -->
             <div class="text-center space-x-5 lg:text-left">
                 @if ($project->live_url)
-                    <x-project.cta href="{{ $project->live_url }}" target="_blank">Live</x-project.cta>
+                <x-project.cta href="{{ $project->live_url }}" target="_blank">Live</x-project.cta>
                 @endif
                 @if ($project->github_repo)
-                    <x-project.cta href="{{ $project->github_repo }}" target="_blank">Github</x-project.cta>
+                <x-project.cta href="{{ $project->github_repo }}" target="_blank">Github</x-project.cta>
                 @endif
                 @if ($project->slug)
-                    <x-project.cta href="{{ $project->slug }}">Read more</x-project.cta>
+                <x-project.cta href="/work/{{ $project->slug }}">Read more</x-project.cta>
                 @endif
             </div>
         </div>
