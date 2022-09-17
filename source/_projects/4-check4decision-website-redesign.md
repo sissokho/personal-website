@@ -4,9 +4,8 @@ title: Check4Decision Website
 slug: check4decision-website
 description: Website for the Check4Decision project which is a project that addresses issues related to the automation of data collection and aggregation as well as fact-checking in the web journalistic context.
 type: main
-status: "Work in progress"
 thumbnail: check4decision-website.png
-live_url: https://check4decision.netlify.app/
+live_url: https://check4decision.univ-thies.sn
 tags:
     - Jigsaw
     - Tailwind CSS
@@ -14,7 +13,7 @@ tags:
 section: content
 ---
 
-It all began when i joined the [Check4Decision project](https://check4decision.univ-thies.sn/) in November 2019. My first task was to help the then lead developer build the project's website by using a template. It didn't took much time.
+It all began when i joined the Check4Decision project in November 2019. My first task was to help the then lead developer build the project's website by using a template. It didn't took much time.
 
 All that was needed was to change the text, replace images and add some custom css styles.
 
@@ -74,18 +73,33 @@ My main focus was to optimize the images by:
 
 ## Brand new website
 
-So after some hard work and many iterations over the design, [here it is](https://check4decision.netlify.app/):
+So after some hard work and many iterations over the design, [here it is](https://check4decision.univ-thies.sn):
 
 <img
 src="/assets/images/work/check4decision-website/new-website-1.png"
-alt="Screenshot of the new website"
+alt="Screenshot of the new website's header"
+width="768"
+height="367"
+loading="lazy"
+decoding="async">
+
+<img
+src="/assets/images/work/check4decision-website/new-website-2.png"
+alt="Screenshot of the new website's directors sections"
+width="768"
+height="367"
+loading="lazy"
+decoding="async">
+
+<img
+src="/assets/images/work/check4decision-website/new-website-3.png"
+alt="Screenshot of the new website's team section"
 width="768"
 height="367"
 loading="lazy"
 decoding="async">
 
 It looks better than the previous one and the images rendering is more optimized.
-However it is not totally finished yet. There are little improvements to make after some feedbacks that i have received from the directors.
 
 ## Conclusion
 
