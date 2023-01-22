@@ -1,7 +1,7 @@
 ---
 extends: _layouts.project
 title: Check4Decision Website
-slug: check4decision-website
+# slug: check4decision-website
 description: Website for the Check4Decision project which is a project that addresses issues related to the automation of data collection and aggregation as well as fact-checking in the web journalistic context.
 type: main
 thumbnail: check4decision-website.png

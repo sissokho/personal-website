@@ -1,7 +1,7 @@
 ---
 extends: _layouts.project
 title: News search engine
-slug: news-search-engine
+# slug: news-search-engine
 description: Search engine that allow users to search through news articles aggregated from more than 100 senegalese online sources.
 type: main
 thumbnail: search-engine.png

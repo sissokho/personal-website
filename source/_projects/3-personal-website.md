@@ -1,7 +1,7 @@
 ---
 extends: _layouts.project
 title: Personal Website
-slug: personal-website
+# slug: personal-website
 description: Website to showcases my skills and my work.
 type: main
 thumbnail: personal-website.png
