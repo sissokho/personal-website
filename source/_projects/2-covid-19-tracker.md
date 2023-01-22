@@ -69,7 +69,7 @@ decoding="async">
 
 ## News by city
 
-Another useful feature was displaying covid news. when a user clicked on a city, covid news related to that city was shown at the right side of the screen. Those news came from the [Check4Decision's collected articles index](/work/news-search-engine).
+Another useful feature was displaying covid news. when a user clicked on a city, covid news related to that city was shown at the right side of the screen. Those news came from the Check4Decision's collected articles index.
 
 ## Why it was shut down
 
