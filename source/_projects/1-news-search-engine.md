@@ -9,10 +9,9 @@ live_url: https://check4decision.univ-thies.sn/search/
 tags:
     - Laravel
     - Livewire
-    - CSS/SASS
+    - Tailwind CSS
     - Alpine.js
-    - Javascript
-    - ApexCharts.js
+    - Chart.js
     - Spring Boot
     - Apache Lucene
 section: content
