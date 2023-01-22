@@ -5,7 +5,7 @@
 @section('body')
 <div class="max-w-7xl mx-auto">
     <h1 class="text-3xl text-center font-bold tracking-wide md:text-left">
-        <span class="inline-block bg-pink-600 text-white px-2 py-1"
+        <span class="inline-block bg-pink-600 text-white px-2 py-2"
             style="border-radius: 91% 9% 90% 10% / 29% 82% 18% 71%">
             Selected Work
         </span>
