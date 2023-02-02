@@ -5,7 +5,7 @@ title: News search engine
 description: Search engine that allow users to search through news articles aggregated from more than 100 senegalese online sources.
 type: main
 thumbnail: search-engine.png
-live_url: https://check4decision.univ-thies.sn/search/
+live_url: https://check4decision.uvs.sn/search/
 tags:
     - Laravel
     - Livewire
@@ -19,13 +19,13 @@ section: content
 
 The Web, nowadays, is one of the privileged sources in the daily quest for diversified information. It has really influenced the media industry. In Senegal, we have more than a hundred online news sites. However, this growing quantity does not allow the reader to have a global view of all the articles concerning a given subject because they are scattered on hundreds of sites and it is difficult for them to visit them all.
 
-To help address that problem, it was decided, by the directors of the [Check4Decision project](https://check4decision.univ-thies.sn/), to build a search engine which will give users access to a wide variety of news articles collected from more than a hundred news site.
+To help address that problem, it was decided, by the directors of the [Check4Decision project](https://check4decision.uvs.sn/), to build a search engine which will give users access to a wide variety of news articles collected from more than a hundred news site.
 
 ## How does the search engine work ?
 
 Building a search engine is not an easy task. A crawler is needed to collect documents from the Web. Storage space must be used to store the [indexes](https://en.wikipedia.org/wiki/Search_engine_indexing). The indexing system must process thousands of documents. And finally, the queries must be processed and the results delivered to the users.
 
-[Our search engine](https://check4decision.univ-thies.sn/search) is made of several components that interact with each other to ensure proper operation during articles indexing and searching. The figure below shows the interaction between the components.
+[Our search engine](https://check4decision.uvs.sn/search) is made of several components that interact with each other to ensure proper operation during articles indexing and searching. The figure below shows the interaction between the components.
 
 <img
 src="/assets/images/work/check4decision-website/components-interaction.png"
@@ -71,7 +71,7 @@ Apart from Laravel, We also use Alpine.js and Livewire to add some dynamic featu
 -   incrementing the number of views for an article (without refreshing the browser) when the user is redirected to the original post.
 -   store some information when a user downloads an article (without refreshing the browser).
 
-In addition to the search related features, we have also added a [simple dashboard](https://check4decision.univ-thies.sn/search/dashboard/articles) to show some statistics about the search engine like the total number of searches, the number of articles indexed, etc.
+In addition to the search related features, we have also added a [simple dashboard](https://check4decision.uvs.sn/search/dashboard/articles) to show some statistics about the search engine like the total number of searches, the number of articles indexed, etc.
 
 ## Conclusion
 

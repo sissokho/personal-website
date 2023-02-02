@@ -63,7 +63,7 @@ Soon after, i started reading the documentation and started practicing by buildi
 
 ### Alpine.js
 
-I first used Alpine.js on the [Check4Decision search engine](https://check4decision.univ-thies.sn/search) for things like hiding/showing the menu on mobile, hiding/showing dropdown options and other little interactions. It is simple and offer a very cool way to implement javascript's functionalities.
+I first used Alpine.js on the [Check4Decision search engine](https://check4decision.uvs.sn/search) for things like hiding/showing the menu on mobile, hiding/showing dropdown options and other little interactions. It is simple and offer a very cool way to implement javascript's functionalities.
 
 On top of that combining it with Tailwind CSS and Laravel Blade allows me to extract repeated markup into components (Tailwind CSS + Alpine.js + Blade component = 😍).
 

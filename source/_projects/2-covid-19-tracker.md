@@ -14,7 +14,7 @@ tags:
 section: content
 ---
 
-When the covid-19 cases started to grow in our country, there were many initiatives to help people get up-to-date statistics. Motivated by all those initiatives, the directors of the [Check4Decision project](https://check4decision.univ-thies.sn/) wanted to bring their contribution by putting at the disposal of the people a web application where they would not only see statistics but also have access to news about the coronavirus all around the country.
+When the covid-19 cases started to grow in our country, there were many initiatives to help people get up-to-date statistics. Motivated by all those initiatives, the directors of the [Check4Decision project](https://check4decision.uvs.sn/) wanted to bring their contribution by putting at the disposal of the people a web application where they would not only see statistics but also have access to news about the coronavirus all around the country.
 
 I was tasked to build it and we wanted to offer as many useful features as possible: statistics, evolution of the different type of cases (total, new, deaths, recovered, under treatment), covid news by city and a national map showing the trends by city.
 

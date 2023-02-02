@@ -5,7 +5,7 @@ title: Check4Decision Website
 description: Website for the Check4Decision project which is a project that addresses issues related to the automation of data collection and aggregation as well as fact-checking in the web journalistic context.
 type: main
 thumbnail: check4decision-website.png
-live_url: https://check4decision.univ-thies.sn
+live_url: https://check4decision.uvs.sn
 tags:
     - Jigsaw
     - Tailwind CSS
@@ -73,7 +73,7 @@ My main focus was to optimize the images by:
 
 ## Brand new website
 
-So after some hard work and many iterations over the design, [here it is](https://check4decision.univ-thies.sn):
+So after some hard work and many iterations over the design, [here it is](https://check4decision.uvs.sn):
 
 <img
 src="/assets/images/work/check4decision-website/new-website-1.png"
