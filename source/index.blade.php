@@ -19,7 +19,7 @@
 
         <div class="space-y-4 text-slate-600 text-lg tracking-wider">
             <p class="mt-10">
-                Hello, I am Moustapha. I am PHP / Laravel developer based in Senegal with 4+ years
+                Hello, I am Moustapha. I am PHP / Laravel developer based in Senegal with 3+ years
                 of
                 experience
                 building web applications, websites and APIs.
